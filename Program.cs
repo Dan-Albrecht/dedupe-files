@@ -14,7 +14,7 @@
             {
                 new Option(
                     new[]{ "-p", "--path" },
-                    "Path to recurrsively sacn")
+                    "Path to recurrsively scan")
                 {
                     Argument = new Argument<string>(getDefaultValue: () => Environment.CurrentDirectory)
                 }
