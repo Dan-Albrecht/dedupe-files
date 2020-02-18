@@ -3,7 +3,11 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>dedupe_files</RootNamespace>
+    <RootNamespace>DedupeFiles</RootNamespace>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.CommandLine" Version="2.0.0-beta1.20104.2" />
+  </ItemGroup>
 
 </Project>
